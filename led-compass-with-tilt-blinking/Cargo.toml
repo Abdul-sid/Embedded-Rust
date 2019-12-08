@@ -1,0 +1,13 @@
+[package]
+authors = ["Jorge Aparicio <jorge@japaric.io>"]
+edition = "2018"
+name = "led-compass"
+version = "0.1.0"
+
+[dependencies]
+m = "0.1.1"
+aux15 = { path = "auxiliary" }
+f3 = "0.6.1"
+cortex-m = "0.6.1"
+panic-semihosting = "0.5.3"
+l3gd20 = "0.2.0"
